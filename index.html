@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Carona</title>
+    <!-- Incluindo o Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fonte Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4 md:p-8 flex items-center justify-center min-h-screen">
+
+    <!-- Card de Mensagem -->
+    <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-xl overflow-hidden text-center p-8">
+        
+        <!-- Título -->
+        <h1 class="text-3xl font-bold text-gray-800">
+            Pedido Especial
+        </h1>
+        
+        <!-- Subtítulo -->
+        <p class="text-lg text-gray-600 mt-2">Para o melhor namorado do mundo</p>
+
+        <!-- Mensagem Principal -->
+        <div class="my-8">
+            <p class="text-xl text-gray-700">
+                Amor, pode vir me buscar no
+                <span class="font-semibold text-blue-600">SENAI</span>,
+                por favor?
+            </p>
+            <p class="text-lg text-gray-500 mt-4">
+                Já estou pronta te esperando!
+            </p>
+        </div>
+
+        <!-- Coração que Pulsa -->
+        <!-- A classe 'animate-pulse' do Tailwind faz o emoji pulsar -->
+        <div class="text-6xl text-red-500 animate-pulse">
+            💖
+        </div>
+
+    </div>
+
+</body>
+</html>
